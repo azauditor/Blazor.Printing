@@ -15,9 +15,9 @@ Documentation and examples can be found [here](https://blazor-printing.append.be
 
 ### Installing
 
-You can install from NuGet using the following command:
+You can install from [NuGet](https://www.nuget.org/packages/Append.Blazor.Printing.Patched/6.3.1) using the following command:
 
-`Install-Package Append.Blazor.Printing`
+`Install-Package Append.Blazor.Printing.Patched`
 
 ### Setup
 
