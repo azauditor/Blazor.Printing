@@ -1,10 +1,4 @@
 ﻿using Microsoft.JSInterop;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Append.Blazor.Printing
@@ -33,7 +27,7 @@ namespace Append.Blazor.Printing
         }
         public Task Print(string printable, bool showModal, PrintType printType = PrintType.Pdf)
         {
-            return Print(new PrintOptions(printable) { ShowModal= showModal, Type = printType });
+            return Print(new PrintOptions(printable) { ShowModal = showModal, Type = printType });
         }
 
         internal async ValueTask ImportModule()

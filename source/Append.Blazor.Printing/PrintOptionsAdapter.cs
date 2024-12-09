@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Text.Json.Serialization;
 
 namespace Append.Blazor.Printing
 {
@@ -13,6 +13,8 @@ namespace Append.Blazor.Printing
         public string ModalMessage { get; init; } = "Retrieving Document...";
         public bool? Base64 { get; set; }
         public string TargetStyles { get; set; } = "['*']";
+        [JsonPropertyName("font_size")]
+        public string FontSize { get; set; } = "12px";
 
         public PrintOptionsAdapter(PrintOptions options)
         {
@@ -21,6 +23,7 @@ namespace Append.Blazor.Printing
             ShowModal = options.ShowModal;
             ModalMessage = options.ModalMessage;
             Base64 = options.Base64 == true ? true : null;
+            FontSize = options.FontSize;
         }
     }
 }

@@ -41,5 +41,9 @@
         /// Used when printing PDF documents passed as base64 data.
         /// </summary>
         public bool Base64 { get; set; }
+        /// <summary>
+        /// Font size to use when printing. Default is 12px
+        /// </summary>
+        public string FontSize { get; set; } = "12px";
     }
 }
