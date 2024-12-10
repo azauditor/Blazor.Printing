@@ -32,7 +32,7 @@ namespace Append.Blazor.Printing
 
         internal async ValueTask ImportModule()
         {
-            module = await jsRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/Append.Blazor.Printing/scripts.js");
+            module = await jsRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/Append.Blazor.Printing.Patched/scripts.js");
         }
     }
 }
