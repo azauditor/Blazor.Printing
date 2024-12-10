@@ -2,7 +2,7 @@
 This is a fork of the Append.Blazor.Printing package provided by [Append-IT](https://github.com/Append-IT) which currently fixes font sizes on printing. Below is from the original repository.
 Print and Save files in Blazor using the native dialog box using JavaScript Interop and [PrintJS](https://printjs.crabbly.com/).
 
-![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/azauditor.Blazor.Printing?style=flat-square)
+![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Append.Blazor.Printing.Patched?style=flat-square)
 
 ## The result
 ![Screenshot](https://i.imgur.com/a0O6zwE.gif)
@@ -15,9 +15,9 @@ Documentation and examples can be found [here](https://blazor-printing.append.be
 
 ### Installing
 
-You can install from NuGet using the following command:
+You can install from [NuGet](https://www.nuget.org/packages/Append.Blazor.Printing.Patched/6.3.1) using the following command:
 
-`Install-Package Append.Blazor.Printing`
+`Install-Package Append.Blazor.Printing.Patched`
 
 ### Setup
 
