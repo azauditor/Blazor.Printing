@@ -44,6 +44,6 @@
         /// <summary>
         /// Font size to use when printing. Default is 12px
         /// </summary>
-        public string FontSize { get; set; } = "12px";
+        public string FontSize { get; set; } = "";
     }
 }
