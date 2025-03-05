@@ -14,7 +14,7 @@ namespace Append.Blazor.Printing
         public bool? Base64 { get; set; }
         public string TargetStyles { get; set; } = "['*']";
         [JsonPropertyName("font_size")]
-        public string FontSize { get; set; } = "12px";
+        public string FontSize { get; set; } = "";
 
         public PrintOptionsAdapter(PrintOptions options)
         {
